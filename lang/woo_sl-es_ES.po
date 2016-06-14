@@ -1,0 +1,554 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Software License\n"
+"POT-Creation-Date: 2016-06-01 08:56-0430\n"
+"PO-Revision-Date: 2016-06-10 12:51-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: software-license.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: include/cache-dependencies.php:376
+#, php-format
+msgid ""
+"The <code>%s</code> option is deprecated for the family of <code>bloginfo()</"
+"code> functions."
+msgstr ""
+"La opción <code>% s </ code> es obsoleta para la familia de las funciones de "
+"<code> bloginfo () </ code>."
+
+#: include/cache-dependencies.php:376
+#, php-format
+msgid "Use the <code>%s</code> option instead."
+msgstr "En su lugar utilice <code>% s </ code>  "
+
+#: include/class.admin.php:62
+msgid "Settings Saved"
+msgstr "Ajustes guardados"
+
+#: include/class.admin.php:91
+msgid "General Settings"
+msgstr "Configuración general"
+
+#: include/class.admin.php:99
+msgid "Use Cache Module"
+msgstr "Utilice el módulo caché "
+
+#: include/class.admin.php:103
+msgid ""
+"The cache module will drastically increase the processing speed of all API "
+"calls, concluding on very low CPU and memory usage. More details about Cache "
+"Module usage can be found at"
+msgstr ""
+"El módulo de memoria caché aumentará radicalmente la velocidad de "
+"procesamiento de todas las llamadas API, concluyendo con un nivel muy bajo "
+"de uso de la CPU y de la memoria. Podrá encontrar más detalles sobre el uso "
+"del módulo de caché en"
+
+#: include/class.admin.php:103
+msgid "More Details"
+msgstr "Más detalles"
+
+#: include/class.admin.php:108
+msgid "Grant access to licence key after payment "
+msgstr "Permitir el acceso a la clave de la licencia después del pago"
+
+#: include/class.admin.php:112
+msgid ""
+"Enable this option to grant access to downloads when orders are \"completed"
+"\", rather than \"processing\"."
+msgstr ""
+"Activar esta opción para permitir el acceso a las descargas cuando se "
+"\"completen\" los pedidos, en lugar de \"procesar\"."
+
+#: include/class.admin.php:122
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: include/class.sl.admin.order.php:66
+msgid "Order License Details"
+msgstr "Realice el pedido de los detalles de licencia"
+
+#: include/class.sl.admin.order.php:68
+msgid "License Keys"
+msgstr "Claves de la licencia"
+
+#: include/class.sl.admin.order.php:69
+#: templates/myaccount/my-licence-manage.php:76
+msgid "Key Generator"
+msgstr "Generador de Claves"
+
+#: include/class.sl.admin.order.php:110 include/class.sl.admin.product.php:491
+#: include/class.sl.admin.product.php:556
+msgid "Group title"
+msgstr "Título del grupo"
+
+#: include/class.sl.admin.order.php:110
+msgid "The license group title."
+msgstr "El título del grupo de licencias."
+
+#: include/class.sl.admin.order.php:119 include/class.sl.admin.product.php:496
+#: include/class.sl.admin.product.php:561
+msgid "Licence Prefix"
+msgstr "Prefijo de la Licencia"
+
+#: include/class.sl.admin.order.php:119 include/class.sl.admin.product.php:497
+#: include/class.sl.admin.product.php:562
+msgid "A prefix for generated keys."
+msgstr "Un prefijo para las claves generadas."
+
+#: include/class.sl.admin.order.php:128 include/class.sl.admin.product.php:501
+#: include/class.sl.admin.product.php:566
+msgid "Maximum Licence Keys"
+msgstr "Máximo de Claves de Licencia"
+
+#: include/class.sl.admin.order.php:128 include/class.sl.admin.product.php:502
+#: include/class.sl.admin.product.php:567
+msgid "The maximum number of licence keys which can generate."
+msgstr "El número máximo de claves de licencia que pueden generarse."
+
+#: include/class.sl.admin.order.php:136 include/class.sl.admin.product.php:506
+#: include/class.sl.admin.product.php:571
+msgid "Instances per Key"
+msgstr "Instancias por clave"
+
+#: include/class.sl.admin.order.php:136 include/class.sl.admin.product.php:508
+#: include/class.sl.admin.product.php:573
+msgid "The maximum activations domains / WordPress a key can be used along."
+msgstr ""
+"Los dominios del máximo de activaciones/ WordPress se puede utilizar una "
+"tecla."
+
+#: include/class.sl.admin.order.php:144 include/class.sl.admin.product.php:512
+#: include/class.sl.admin.product.php:577
+msgid "Use Predefined Keys"
+msgstr "Utilice Claves predefinidas"
+
+#: include/class.sl.admin.order.php:144
+msgid ""
+"Predefined keys will be used instead generated. Keys are provided through "
+"Product page"
+msgstr ""
+"Se utilizarán teclas predefinidas que se generen. Las claves se proporcionan "
+"a través de la página del producto"
+
+#: include/class.sl.admin.order.php:202 include/class.sl.functions.php:1088
+#: templates/myaccount/my-licence-manage.php:44
+#, php-format
+msgid "1 domain"
+msgid_plural "%s domains"
+msgstr[0] "1 dominio"
+msgstr[1] "%s dominios"
+
+#: include/class.sl.admin.order.php:206
+#: templates/myaccount/my-licence-manage.php:48
+msgid "License Key"
+msgstr "Clave de licencia"
+
+#: include/class.sl.admin.order.php:207
+#: templates/myaccount/my-licence-manage.php:49
+msgid "Status"
+msgstr "Estado"
+
+#: include/class.sl.admin.order.php:208
+#: templates/myaccount/my-licence-manage.php:50
+msgid "Domain"
+msgstr "Dominio"
+
+#: include/class.sl.admin.order.php:209
+#: templates/myaccount/my-licence-manage.php:51
+msgid "Action"
+msgstr "Acción "
+
+#: include/class.sl.admin.order.php:257
+#: templates/myaccount/my-licence-manage.php:85
+msgid "Group"
+msgstr "Grupo"
+
+#: include/class.sl.admin.order.php:260
+#: templates/myaccount/my-licence-manage.php:88
+msgid "Max Keys"
+msgstr "Máximo de Claves"
+
+#: include/class.sl.admin.order.php:263
+#: templates/myaccount/my-licence-manage.php:91
+msgid "Instances per key"
+msgstr "Instancias por Clave"
+
+#: include/class.sl.admin.order.php:266
+#: templates/myaccount/my-licence-manage.php:94
+msgid "In use keys"
+msgstr "Claves en uso"
+
+#: include/class.sl.admin.order.php:280
+#: templates/myaccount/my-licence-manage.php:108
+msgid "Generate Licence Key"
+msgstr "Genere la Clave de la Licencia "
+
+#: include/class.sl.admin.product.php:54 include/class.sl.admin.product.php:269
+msgid "Licence"
+msgstr "Licencia"
+
+#: include/class.sl.admin.product.php:55
+msgid "Licence allow keys to be created and allow API software update access."
+msgstr ""
+"La licencia permite que se creen las claves y le permite al programa "
+"informático API actualizar acceso."
+
+#: include/class.sl.admin.product.php:78
+msgid "Software Title"
+msgstr "Título del programa informático"
+
+#: include/class.sl.admin.product.php:80
+msgid "This software title."
+msgstr "Este título de programa informático."
+
+#: include/class.sl.admin.product.php:81
+msgid "e.g. Custom Plugin"
+msgstr "ej. Plugin de encargo"
+
+#: include/class.sl.admin.product.php:86
+msgid "Software Unique ID"
+msgstr "Identificador único del programa informático"
+
+#: include/class.sl.admin.product.php:88
+msgid "This unique ID/Name is used by the API to identify the software."
+msgstr ""
+"Este identificador único / API utiliza el nombre para identificar el "
+"programa informático."
+
+#: include/class.sl.admin.product.php:89
+msgid "e.g. WP-PLG-38"
+msgstr "ej. WP-PLG-38"
+
+#: include/class.sl.admin.product.php:94
+msgid "Software Version"
+msgstr "Versión del programa informático"
+
+#: include/class.sl.admin.product.php:96
+msgid "The software version number."
+msgstr "Versión numérica de la versión del software"
+
+#: include/class.sl.admin.product.php:97
+msgid "e.g. 2.1"
+msgstr "Ej. 2.1"
+
+#: include/class.sl.admin.product.php:104
+msgid "Software Author"
+msgstr "Autor del programa informático"
+
+#: include/class.sl.admin.product.php:106
+msgid "The author of the software."
+msgstr "El autor del programa informático"
+
+#: include/class.sl.admin.product.php:107
+msgid "Todd Lahman LLC"
+msgstr "Todd Lahman LLC"
+
+#: include/class.sl.admin.product.php:112
+msgid "Software Page URL"
+msgstr "URL del programa informático"
+
+#: include/class.sl.admin.product.php:114
+msgid "The software page URL."
+msgstr "URL de la página del programa informático"
+
+#: include/class.sl.admin.product.php:115
+msgid "http://custom-plugin.com"
+msgstr "http://custom-plugin.com"
+
+#: include/class.sl.admin.product.php:121
+msgid "WP Version Required"
+msgstr "Versión de WP requerida"
+
+#: include/class.sl.admin.product.php:123
+msgid "Minimum WordpPress version which is requires."
+msgstr "Versión mínima de WP requerida "
+
+#: include/class.sl.admin.product.php:124
+msgid "e.g. 3.2"
+msgstr "Ej. 3.2"
+
+#: include/class.sl.admin.product.php:129
+msgid "WP Version Tested Up To"
+msgstr "Versión de WP probada "
+
+#: include/class.sl.admin.product.php:131
+msgid "Highest version of WordPress software was tested on."
+msgstr "Versión superior de WP probada "
+
+#: include/class.sl.admin.product.php:132
+msgid "e.g. 4.0"
+msgstr "Ej. 4.0"
+
+#: include/class.sl.admin.product.php:137
+msgid "Software Last Updated"
+msgstr "Ultima actualización del programa informática"
+
+#: include/class.sl.admin.product.php:139
+msgid "When the software was last updated."
+msgstr "Cuando fue la ultima ves que se actualizó el software"
+
+#: include/class.sl.admin.product.php:140
+msgid "YYYY-MM-DD"
+msgstr "DD-MM-AAAA"
+
+#: include/class.sl.admin.product.php:145
+msgid "WP Update nottice"
+msgstr "Aviso de Actualización del WP  "
+
+#: include/class.sl.admin.product.php:147
+msgid "WP Update nottice."
+msgstr "WP aviso de actualización"
+
+#: include/class.sl.admin.product.php:148
+msgid "e.g. Update Available"
+msgstr "Ej. Actualización disponible "
+
+#: include/class.sl.admin.product.php:157
+msgid "Description"
+msgstr "Descripción "
+
+#: include/class.sl.admin.product.php:158
+msgid "A description of the software"
+msgstr "Descripción del software"
+
+#: include/class.sl.admin.product.php:170
+msgid "Installation"
+msgstr "Instalación"
+
+#: include/class.sl.admin.product.php:171
+msgid "This section describes how to install the software and get it working."
+msgstr ""
+"Esta sección describe cómo instalar el programa informático y cómo lograr "
+"que funcione."
+
+#: include/class.sl.admin.product.php:181
+msgid "FAQ"
+msgstr "Preguntas Frecuentes"
+
+#: include/class.sl.admin.product.php:182
+msgid "Frequently Asked Questions."
+msgstr "Preguntas frecuentes."
+
+#: include/class.sl.admin.product.php:192
+#: include/class.sl.admin.product.php:235
+#: include/class.sl.admin.product.php:244
+msgid "Screenshots"
+msgstr "Capturas de pantalla"
+
+#: include/class.sl.admin.product.php:193
+msgid "Screenshots."
+msgstr "Capturas de pantalla."
+
+#: include/class.sl.admin.product.php:203
+msgid "Changelog"
+msgstr "Histórico de Cambios "
+
+#: include/class.sl.admin.product.php:204
+msgid "Changes in the software."
+msgstr "Cambios del programa informática"
+
+#: include/class.sl.admin.product.php:213
+msgid "Reviews"
+msgstr "Revisiones"
+
+#: include/class.sl.admin.product.php:214
+msgid "Software reviews."
+msgstr "Revisiones del software"
+
+#: include/class.sl.admin.product.php:224
+msgid "Other Notes"
+msgstr "Otras notas"
+
+#: include/class.sl.admin.product.php:225
+msgid "Other Notes of the software."
+msgstr "Otras notas del programa informático"
+
+#: include/class.sl.admin.product.php:236
+msgid "High resolution banner 1544x500 px"
+msgstr "Banderola de alta definición (1544x500 px)"
+
+#: include/class.sl.admin.product.php:245
+msgid "Low resolution banner 772x250 px"
+msgstr "Banderola de baja definición (772x250 px)"
+
+#: include/class.sl.admin.product.php:492
+#: include/class.sl.admin.product.php:557
+msgid "The license group title. Required to be unique per product."
+msgstr "Titulo del grupo de la licencia. Tiene que ser único por producto."
+
+#: include/class.sl.admin.product.php:517
+#: include/class.sl.admin.product.php:582
+msgid "Predefined keys will be used instead generated."
+msgstr "Se utilizarán las claves predefinidas que se generen."
+
+#: include/class.sl.admin.product.php:521
+#: include/class.sl.admin.product.php:586
+msgid "Predefined Keys"
+msgstr "Claves predefinidas"
+
+#: include/class.sl.admin.product.php:523
+#: include/class.sl.admin.product.php:588
+msgid ""
+"Single key per line. Large lists save may depend on server environment "
+"variables."
+msgstr ""
+"Una clave por línea. La salva de listas grandes podrán depender las "
+"configuraciones del servidor. "
+
+#: include/class.sl.admin.product.php:528
+#: include/class.sl.admin.product.php:592
+msgid "Remove"
+msgstr "Eliminar"
+
+#: include/class.sl.admin.product.php:536
+msgid "Add License Group Type"
+msgstr "Añadir Tipo de Licencia para el Grupo"
+
+#: include/class.sl.ajax.php:30
+msgid "Invalid product, please select one."
+msgstr "Producto no válido, por favor seleccione uno."
+
+#: include/class.sl.ajax.php:43 include/class.sl.ajax.php:136
+#: include/class.sl.ajax.php:208 include/class.sl.front.php:262
+msgid "Invalid security code"
+msgstr "Código de seguridad no válido"
+
+#: include/class.sl.ajax.php:62
+msgid "No capabilities over this order"
+msgstr "No hay capacidad en esta orden"
+
+#: include/class.sl.ajax.php:79 include/class.sl.front.php:219
+msgid ""
+"Sorry maximum number of generated Licence Keys reached! Please upgrade if "
+"available."
+msgstr ""
+"Disculpe se alcanzó el numero máximo de generación de claves. Por favor "
+"mejore su cuenta si es posible."
+
+#: include/class.sl.ajax.php:94 include/class.sl.front.php:227
+msgid "A new License Keys has been generated"
+msgstr "Se ha generado una nueva clave. "
+
+#: include/class.sl.ajax.php:105
+msgid ""
+"There was a problem generating a new licence key. Please contact system "
+"administrator."
+msgstr ""
+"Un problema generó una nueva clave. Por favor contacte al administrador."
+
+#: include/class.sl.ajax.php:147 include/class.sl.ajax.php:219
+#: include/class.sl.front.php:271
+msgid "Invalid data"
+msgstr "Datos no válidos"
+
+#: include/class.sl.front.php:77
+msgid "Licence Manage"
+msgstr "Administración de Licencias"
+
+#: include/class.sl.front.php:249
+msgid "You must be loged-in to access this form"
+msgstr "Debe iniciar sesión para visualizar este formulario"
+
+#: include/class.sl.functions.php:97
+msgid "Software License"
+msgstr "Licencia de Programa Informático"
+
+#: include/class.sl.functions.php:98
+msgid "Endpoint for the My Account &rarr; Software License page"
+msgstr ""
+"Punto final de Mi Cuenta &arr, página de la Licencia del Programa Informático"
+
+#: include/class.sl.functions.php:602
+msgid "Active"
+msgstr "Activo"
+
+#: include/class.sl.functions.php:606
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: include/class.sl.functions.php:699
+msgid "Deactivate"
+msgstr "Desactivado"
+
+#: include/class.sl.functions.php:706
+msgid "Delete"
+msgstr "Eliminar"
+
+#: include/class.sl.functions.php:727 include/class.sl.functions.php:735
+msgid "No keys"
+msgstr "No hay claves"
+
+#: include/class.sl.functions.php:1090
+msgid "You can manage your keys from My Account"
+msgstr "Puede administrar sus claves desde Mi Cuenta "
+
+#: include/class.sl.functions.php:1206
+msgid "Unable to determinate the wp-config.php file path"
+msgstr "No es posible determinar la ruta del archivo wp-config.php"
+
+#: include/class.sl.functions.php:1218
+msgid "The wp-config.php file is not writable"
+msgstr "El archivo wp-config.php no tiene permisos de escritura"
+
+#: include/class.sl.functions.php:1230
+msgid "Unable to read the wp-config.php file content"
+msgstr "No es posible leer contenido del archivo wp-config.php "
+
+#: include/class.sl.functions.php:1255
+msgid "Cache Module status updated"
+msgstr "Estado del módulo caché actualizado"
+
+#: include/class.sl.functions.php:1266
+msgid "Unable to update the wp-config.php file"
+msgstr "No es posible actualizar el archivo wp-config.php"
+
+#: templates/myaccount/my-licence-manage.php:19
+#, php-format
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+"Pedido <mark class=\"order-number\">%s</mark> realizado el <mark class="
+"\"order-date\">%s</mark> y se encuentra actualmente <mark class=\"order-"
+"status\">%s</mark>."
+
+#: templates/myaccount/my-licence-manage.php:22
+msgid "My Order License Keys"
+msgstr "Mis Claves de Licencia de Pedidos "
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Software License"
+msgstr "Licencia de Programa Informático WooCommerce "
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.nsp-code.com"
+msgstr "http://www.nsp-code.com"
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress WooCommerce Software License helps with software license keys "
+"management, autoupdates and code protection"
+msgstr ""
+"La Licencia del Programa Informático WordPress WooCommerce Software le ayuda "
+"con la administración de las claves de licencia, auto-actualizaciones y "
+"protección del código"
+
+#. Author of the plugin/theme
+msgid "Nsp Code"
+msgstr "Código Nsp "
